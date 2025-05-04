@@ -1,5 +1,4 @@
 import HeroSection from '../components/HeroSection';
-import TestimonialCard from '../components/TestimonialCard';
 import CallToAction from '../components/CallToAction';
 
 // Placeholder image

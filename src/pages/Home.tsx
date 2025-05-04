@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { HeartIcon, BookOpenIcon, TreeIcon as HeroTreeIcon, UserGroupIcon } from '@heroicons/react/24/outline';
+import { HeartIcon, BookOpenIcon, UserGroupIcon } from '@heroicons/react/24/outline';
 import HeroSection from '../components/HeroSection';
 import ServiceCard from '../components/ServiceCard';
 import TestimonialCard from '../components/TestimonialCard';
