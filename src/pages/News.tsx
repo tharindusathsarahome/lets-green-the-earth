@@ -14,7 +14,7 @@ const newsItems = [
     summary: "This year's tree planting campaign has surpassed all expectations, with over 1,500 trees planted across three local parks, exceeding our target by more than 50%. The initiative brought together over 200 volunteers from local schools, businesses, and community groups.",
     date: 'May 15, 2023',
     category: 'Environmental',
-    image: 'https://images.unsplash.com/photo-1575401232139-20bbeb4633dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+    image: 'https://www.rainforestrescue.org.au/wp-content/uploads/2025/05/2025-planting-blog-2-1024x498.jpg',
     slug: 'tree-planting-drive'
   },
   {
