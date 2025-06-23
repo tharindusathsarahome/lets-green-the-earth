@@ -58,7 +58,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="text-lg font-bold mb-1">Address</h3>
-                    <p className="text-gray-600">123 Eco Street, Green City, 54321</p>
+                    <p className="text-gray-600">Alawwa, Sri Lanka</p>
                   </div>
                 </div>
 
