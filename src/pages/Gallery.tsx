@@ -3,7 +3,7 @@ import HeroSection from '../components/HeroSection';
 import CallToAction from '../components/CallToAction';
 
 // Gallery images
-const GALLERY_HERO = 'https://images.unsplash.com/photo-1569056828218-0f339c4f7867?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80';
+const GALLERY_HERO = 'https://one-more-tree.org/wp-content/uploads/2024/04/599323.jpg';
 const CTA_IMAGE = 'https://images.unsplash.com/photo-1536825211030-094de935f680?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80';
 
 // Gallery images categorized
@@ -25,14 +25,14 @@ const galleryImages = {
     },
     {
       id: 'env3',
-      src: 'https://images.unsplash.com/photo-1520500807606-4ac9ae633dba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1760&q=80',
+      src: 'https://plus.unsplash.com/premium_photo-1663061406443-48423f04e73d?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29tbXVuaXR5JTIwc2VydmljZXxlbnwwfHwwfHx8MA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000',
       alt: 'Environmental workshop',
       caption: 'Teaching sustainable living practices to local community members',
       date: 'July 2023'
     },
     {
       id: 'env4',
-      src: 'https://images.unsplash.com/photo-1615313423217-93cce7cf1984?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1841&q=80',
+      src: 'https://images.unsplash.com/photo-1652971876875-05db98fab376?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dm9sdW50ZWVyaW5nfGVufDB8fDB8fHww&ixlib=rb-4.1.0&q=60&w=3000',
       alt: 'Community garden',
       caption: 'Our newest community garden in the downtown area',
       date: 'August 2023'
@@ -101,7 +101,7 @@ const galleryImages = {
   elderly: [
     {
       id: 'eld1',
-      src: 'https://images.unsplash.com/photo-1516307064665-7f678e9ad590?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1835&q=80',
+      src: 'https://plus.unsplash.com/premium_photo-1661290203802-e70e01de3a3c?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG9tZSUyMGhlYWx0aCUyMGNhcmV8ZW58MHx8MHx8fDA%3D&ixlib=rb-4.1.0&q=60&w=3000',
       alt: 'Medical camp',
       caption: 'Free health check-up camp for seniors',
       date: 'April 2023'
@@ -122,7 +122,7 @@ const galleryImages = {
     },
     {
       id: 'eld4',
-      src: 'https://images.unsplash.com/photo-1581579438747-104c53d7fbc4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80',
+      src: 'https://plus.unsplash.com/premium_photo-1663036991651-82ee96fcc8d5?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG9tZSUyMGhlYWx0aCUyMGNhcmV8ZW58MHx8MHx8fDA%3D&ixlib=rb-4.1.0&q=60&w=3000',
       alt: 'Medication assistance',
       caption: 'Medication review and assistance program',
       date: 'July 2023'

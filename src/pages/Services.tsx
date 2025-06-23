@@ -3,11 +3,11 @@ import HeroSection from '../components/HeroSection';
 import CallToAction from '../components/CallToAction';
 
 // Service images
-const SERVICES_HERO = 'https://images.unsplash.com/photo-1562157873-818bc0726f68?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80';
+const SERVICES_HERO = 'https://plus.unsplash.com/premium_photo-1681140561031-44c3d98ac84e?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHZvbHVudGVlcmluZ3xlbnwwfHwwfHx8MA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000';
 const COUNSELING_IMAGE = 'https://images.unsplash.com/photo-1573497620053-ea5300f94f21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80';
 const EDUCATION_IMAGE = 'https://images.unsplash.com/photo-1503676382389-4809596d5290?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2036&q=80';
-const ENVIRONMENT_IMAGE = 'https://images.unsplash.com/photo-1542601600647-3a722a90a76c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2013&q=80';
-const ELDERLY_IMAGE = 'https://images.unsplash.com/photo-1581579438747-104c53d7fbc4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80';
+const ENVIRONMENT_IMAGE = 'https://plus.unsplash.com/premium_photo-1681140560906-4610ee700d1b?fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHx8&ixlib=rb-4.0.3&q=60&w=3000';
+const ELDERLY_IMAGE = 'https://plus.unsplash.com/premium_photo-1663054397533-2a3fb0cab5de?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG9tZSUyMGNhcmV8ZW58MHx8MHx8fDA%3D&ixlib=rb-4.1.0&q=60&w=3000';
 const CTA_IMAGE = 'https://images.unsplash.com/photo-1527525443983-6e60c75fff46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80';
 
 export default function Services() {

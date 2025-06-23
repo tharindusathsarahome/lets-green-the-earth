@@ -9,8 +9,8 @@ import CallToAction from '../components/CallToAction';
 const HERO_IMAGE = 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2848&q=80';
 const COUNSELING_IMAGE = 'https://images.unsplash.com/photo-1573497620053-ea5300f94f21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80';
 const EDUCATION_IMAGE = 'https://images.unsplash.com/photo-1503676382389-4809596d5290?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2036&q=80';
-const ENVIRONMENT_IMAGE = 'https://images.unsplash.com/photo-1542601600647-3a722a90a76c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2013&q=80';
-const ELDERLY_IMAGE = 'https://images.unsplash.com/photo-1581579438747-104c53d7fbc4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80';
+const ENVIRONMENT_IMAGE = 'https://altumtechnologies.com/wp-content/uploads/2024/05/environment_day_kuva.jpg';
+const ELDERLY_IMAGE = 'https://plus.unsplash.com/premium_photo-1663054397533-2a3fb0cab5de?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG9tZSUyMGNhcmV8ZW58MHx8MHx8fDA%3D&ixlib=rb-4.1.0&q=60&w=3000';
 const CTA_IMAGE = 'https://images.unsplash.com/photo-1552575450-0b9eb427c3e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80';
 
 // Mock service icons - in a real app we would import SVGs
@@ -256,7 +256,7 @@ export default function Home() {
             {/* News Item 1 */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1575401232139-20bbeb4633dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+                src="https://plus.unsplash.com/premium_photo-1681140560906-4610ee700d1b?fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHx8&ixlib=rb-4.0.3&q=60&w=3000" 
                 alt="Tree planting event" 
                 className="w-full h-48 object-cover"
               />

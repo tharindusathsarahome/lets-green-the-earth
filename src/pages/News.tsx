@@ -3,7 +3,7 @@ import HeroSection from '../components/HeroSection';
 import CallToAction from '../components/CallToAction';
 
 // Images
-const NEWS_HERO = 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80';
+const NEWS_HERO = 'https://images.unsplash.com/photo-1628717341663-0007b0ee2597?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dm9sdW50ZWVyfGVufDB8fDB8fHww&ixlib=rb-4.1.0&q=60&w=3000';
 const CTA_IMAGE = 'https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80';
 
 // News data

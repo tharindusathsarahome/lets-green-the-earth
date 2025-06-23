@@ -8,11 +8,11 @@ const CTA_IMAGE = 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?
 
 // Donation options
 const donationOptions = [
-  { id: 'option1', amount: 25, description: 'Provides school supplies for a student' },
-  { id: 'option2', amount: 50, description: 'Plants 10 trees in deforested areas' },
-  { id: 'option3', amount: 100, description: 'Provides medication for 5 elderly individuals' },
-  { id: 'option4', amount: 250, description: 'Funds a counseling program for 10 sessions' },
-  { id: 'option5', amount: 500, description: 'Sponsors a scholarship for a student in need' },
+  { id: 'option1', amount: 2500, description: 'Provides school supplies for a student' },
+  { id: 'option2', amount: 5000, description: 'Plants 10 trees in deforested areas' },
+  { id: 'option3', amount: 7500, description: 'Provides medication for 5 elderly individuals' },
+  { id: 'option4', amount: 10000, description: 'Funds a counseling program for 10 sessions' },
+  { id: 'option5', amount: 20000, description: 'Sponsors a scholarship for a student in need' },
 ];
 
 // Impact stories
@@ -36,14 +36,14 @@ const impactStories = [
     title: 'Mental Health Impact',
     stats: '3,000+ Counseling Sessions',
     description: "Your support has funded over 3,000 counseling sessions, helping individuals navigate life's challenges with professional guidance.",
-    image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80',
+    image: 'https://plus.unsplash.com/premium_photo-1682001096014-d6f6f7abb60f?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhlbHBpbmclMjBlbGRlcmx5fGVufDB8fDB8fHww&ixlib=rb-4.1.0&q=60&w=3000',
   },
   {
     id: 'impact4',
     title: 'Elderly Care Impact',
     stats: '800+ Elders Assisted',
     description: "We've provided healthcare assistance, companionship, and resources to over 800 elderly individuals in our communities.",
-    image: 'https://images.unsplash.com/photo-1581579438747-104c53d7fbc4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80',
+    image: 'https://plus.unsplash.com/premium_photo-1661290203802-e70e01de3a3c?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG9tZSUyMGhlYWx0aCUyMGNhcmV8ZW58MHx8MHx8fDA%3D&ixlib=rb-4.1.0&q=60&w=3000',
   },
 ];
 
@@ -140,7 +140,7 @@ export default function Donate() {
                         }`}
                         onClick={() => setDonationAmount(option.id)}
                       >
-                        ${option.amount}
+                        Rs. {option.amount}
                       </button>
                     ))}
                     <div 
@@ -208,7 +208,7 @@ export default function Donate() {
                 
                 {/* Submit Button */}
                 <button className="w-full btn-primary text-lg">
-                  Donate ${getActualAmount()} {donationType === 'monthly' ? 'Monthly' : ''}
+                  Donate Rs. {getActualAmount()} {donationType === 'monthly' ? 'Monthly' : ''}
                 </button>
                 
                 <div className="mt-4 text-center">

@@ -2,7 +2,7 @@ import HeroSection from '../components/HeroSection';
 import CallToAction from '../components/CallToAction';
 
 // Placeholder image
-const ABOUT_HERO_IMAGE = 'https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80';
+const ABOUT_HERO_IMAGE = 'https://freepackers.com/wp-content/uploads/2022/11/jeune-2.jpg';
 
 export default function About() {
   return (
